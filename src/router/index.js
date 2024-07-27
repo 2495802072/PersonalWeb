@@ -10,7 +10,8 @@ const routes = [
   {
     path: '/',
     name: 'primaryPage',
-    component: () => import('../views/primaryPage.vue')
+    component: () => import('../views/primaryPage.vue'),
+    meta: { title: '首页' }
   }, {
     path: '/primaryPage',
     name: 'primaryPage',
